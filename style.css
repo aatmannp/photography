@@ -1,0 +1,150 @@
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.index {
+  font-family: "Cormorant Garamond";
+  font-style: italic;
+  margin-top: -15px;
+  padding-left: 30px;
+  background-image: url('back.JPG'); 
+  background-color: black;
+  background-size: cover;
+  color: floralwhite;
+  font-size: 30px;
+  scroll-margin-top: 0;
+}
+
+
+.space{
+  scroll-margin-top: inherit;
+  margin-top: 1000px;
+}
+
+.pages{
+  font-family: "Cormorant Garamond";
+  font-style: italic;
+  padding-left: 30px; 
+  background-color: black;
+  background-size: cover;
+  color: floralwhite;
+  font-size: 30px;
+}
+
+#head{
+  margin-top: 27px;
+  padding-left: -10px;
+}
+
+.tabs{
+  font-family: "Cormorant Garamond";
+  font-style: italic;
+  font-size: 20px;
+  text-align: right;
+  margin-right: 30px;
+  word-spacing: 15px;
+  margin-top: -100px;
+}
+
+.tabs a:hover {
+  color: cornflowerblue;
+  border: 2px solid;
+  border-color: navajowhite;
+  padding: 5px;
+}
+
+a, a:visited {
+  color: floralwhite;
+  text-decoration: none ;
+}
+
+a:active {
+  color: cornflowerblue;
+  border: 2px solid;
+  border-color: navajowhite;
+}
+
+.home{
+  border: 2px solid;
+  border-color: navajowhite;
+  position: absolute;
+  width: 50%;
+  height: 35%;
+  top: 35%;
+  left: 25%;
+  padding: 10px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-style: normal;
+  text-align: center;
+  font-size: 50px;
+
+}
+
+
+div > p {
+  font-size: 16px;
+}
+
+
+.titles{
+  margin-top: 100px;
+  text-align: left;
+  margin-left: 30px;
+  font-size: 80px;
+  font-style:normal;
+}
+
+.container{
+  width: 100%;
+  margin: auto;
+  background-color: black;
+  overflow: auto;
+}
+
+.gallery{
+  margin-top: 25px;
+  margin-left: 20px;
+  float: left;
+  width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main{
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  padding: 0.5px;
+}
+
+.small{
+  width: 49.5%;
+  height: auto;
+  object-fit: contain;
+  padding: 1px;
+}
+
+.smallPng{
+  width: 50%;
+  height: auto;
+  object-fit: contain;
+}
+
+.name{
+  margin-left: 40px;
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+.descriptions{
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+.descriptionsp{
+  font-size: 20px;
+}
+
